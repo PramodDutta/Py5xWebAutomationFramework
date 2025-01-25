@@ -4,28 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dfc4d5a-a650-4e66-a2cf-6877081d7f98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Py5xWebAutomationFramework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/constants/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pageObjects/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tests/katalonStudio/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tests/sample/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tests/sample/test_sample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tests/sample/test_vwoLogin_NotOptimized.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tests/vwoLogin/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/utils/Utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/utils/__init__.py" afterDir="false" />
+    <list default="true" id="8dfc4d5a-a650-4e66-a2cf-6877081d7f98" name="Changes" comment="Framework Ready">
+      <change afterPath="$PROJECT_DIR$/test/constants/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pageObjects/pageFactory/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pageObjects/pageObjectModel/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pageObjects/pageObjectModel/vwo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pageObjects/pageObjectModel/vwo/dashboardPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pageObjects/pageObjectModel/vwo/freeTrialPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pageObjects/pageObjectModel/vwo/loginPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tests/vwoLogin/test_vwo_free_trail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tests/vwoLogin/test_vwo_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/utils/commom_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +33,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "PramodDutta"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/PramodDutta/Py5xWebAutomationFramework.git",
+    "accountId": "c24d73df-db27-47a4-81b1-38b9ef6ccae0"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -53,12 +56,76 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_vwo_free_trail.test_vwo_ft_negative.executor": "Run",
+    "Python tests.Python tests for test_vwo_login.test_vwo_login_negative.executor": "Run",
+    "Python tests.Python tests for test_vwo_login.test_vwo_login_positive.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/promode/PycharmProjects/Py5xWebAutomationFramework/test/tests/vwoLogin"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/tests/vwoLogin" />
+      <recent name="$PROJECT_DIR$/test/tests/sample" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_vwo_free_trail.test_vwo_ft_negative">
+    <configuration name="Python tests for test_vwo_free_trail.test_vwo_ft_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Py5xWebAutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/tests/vwoLogin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_vwo_free_trail.test_vwo_ft_negative&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_vwo_login.test_vwo_login_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Py5xWebAutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/tests/vwoLogin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_vwo_login.test_vwo_login_negative&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_vwo_login.test_vwo_login_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Py5xWebAutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/tests/vwoLogin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_vwo_login.test_vwo_login_positive&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_vwo_free_trail.test_vwo_ft_negative" />
+        <item itemvalue="Python tests.Python tests for test_vwo_login.test_vwo_login_positive" />
+        <item itemvalue="Python tests.Python tests for test_vwo_login.test_vwo_login_negative" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -75,9 +142,22 @@
       <option name="presentableId" value="Default" />
       <updated>1737729389870</updated>
     </task>
+    <task id="LOCAL-00001" summary="Framework Ready">
+      <option name="closed" value="true" />
+      <created>1737732090069</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737732090069</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Framework Ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Framework Ready" />
   </component>
 </project>
